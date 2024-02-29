@@ -1,5 +1,3 @@
-
-
 import React from 'react'
 import Header from '../components/header'
 import { useState } from 'react'
@@ -14,7 +12,11 @@ const [viewCart, setViewCart] = useState(false)
 
 const content = (
     <>
+    <div>
+
     <Header viewCart = {viewCart} setViewCart = {setViewCart} />
+
+    </div>
     
     
     </>
