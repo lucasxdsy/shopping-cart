@@ -1,5 +1,7 @@
+"use client"
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import App from '../images/App'
 
 export default function Home() {
   return (
@@ -9,8 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <main>
-        <h1 classname="text-3xl font-bold">
+        <App />
+        <h1 className="text-3xl font-bold">
           dcl
         </h1>
       </main>
