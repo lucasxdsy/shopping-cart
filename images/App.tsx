@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/header'
+import Footer from '../components/Footer'
 import { useState } from 'react'
 
 
@@ -18,6 +19,9 @@ const content = (
 
     </div>
     
+    <div>
+      <Footer viewCart = {viewCart}></Footer>
+    </div>
     
     </>
 

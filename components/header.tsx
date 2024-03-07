@@ -12,7 +12,7 @@ const header = ({viewCart, setViewCart} : PropsType) => {
 
  const content = (
   <header className="bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 p-5 grid grid-cols-3 gap-1">
-    <div className="text-white flex items-center col-span-2 flex space-x-10">
+    <div className="text-white items-center col-span-2 flex space-x-10">
       <div className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-sky-900 p-2 rounded">
         <div>Shopping-Cart</div>
       </div>

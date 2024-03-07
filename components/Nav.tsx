@@ -12,7 +12,7 @@ type PropsType = {
       </button>
       <div className="text-gray-950	p-1 text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-500  rounded text-center fixed left-1/2 transform -translate-x-1/2 -translate-y-1/2" style={{ marginTop: '7vh' }} >
         <span>
-          {viewCart ? 'Products to buy' : 'Products in the Cart'}
+          {viewCart ? 'Products in the Cart' : 'Products to buy'}
         </span>
       </div>
     </nav>
