@@ -12,7 +12,7 @@ const [viewCart, setViewCart] = useState(false)
 
 const content = (
     <>
-    <div>
+    <div >
 
     <Header viewCart = {viewCart} setViewCart = {setViewCart} />
 
