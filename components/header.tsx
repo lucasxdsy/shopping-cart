@@ -1,5 +1,4 @@
-
-import Nav from './Nav'
+import Nav from "./Nav";
 
 
 type PropsType = {
@@ -8,7 +7,7 @@ type PropsType = {
  
  }
 
-const header = ({viewCart, setViewCart} : PropsType) => {
+const Header = ({viewCart, setViewCart} : PropsType) => {
 
  const content = (
   <header className="bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 p-5 grid grid-cols-3 gap-1">
@@ -43,7 +42,7 @@ const header = ({viewCart, setViewCart} : PropsType) => {
     )
 }
 
-export default header
+export default Header
 
 
 
