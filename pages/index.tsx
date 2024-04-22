@@ -1,6 +1,6 @@
 "use client"
 import Head from 'next/head';
-import App from '../images/App'
+import App from '../Main/App'
 
 
 export default function Home() {
