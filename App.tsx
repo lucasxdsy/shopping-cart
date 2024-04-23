@@ -17,7 +17,7 @@ const pageContent = viewCart ? <Cart /> : <ProductList />
 
 const content = (
     <>
-    <div>
+    <div >
 
     <Header viewCart = {viewCart} setViewCart = {setViewCart} />
 
