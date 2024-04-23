@@ -1,7 +1,9 @@
 "use client"
 import Head from 'next/head';
+
 import App from '../App'
 import React from 'react'
+
 
 import { CartProvider } from '../context/CartProvider'
 import { ProductsProvider } from '../context/ProductsProvider'
