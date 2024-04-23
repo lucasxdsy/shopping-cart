@@ -38,7 +38,7 @@ const CartLineItem = ({ item, dispatch, REDUCER_ACTIONS }: PropsType) => {
 
     const content = (
         <li className="cart__item">
-            <img src={product.image} alt={item.name} className="cart__img" />
+            <img src={item.image} alt={item.name}  className="cart__img mt-2 w-60 h-60 object-cover"/>
             <div aria-label="Item Name">{item.name}</div>
             <div aria-label="Price Per Item">{new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(item.price)}</div>
 
@@ -59,12 +59,12 @@ const CartLineItem = ({ item, dispatch, REDUCER_ACTIONS }: PropsType) => {
             </div>
 
             <button
-                className="cart__button"
+                className="cart__button mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 aria-label="Remove Item From Cart"
                 title="Remove Item From Cart"
                 onClick={onRemoveFromCart}
             >
-                ❌
+                REMOVE 
             </button>
         </li>
     )

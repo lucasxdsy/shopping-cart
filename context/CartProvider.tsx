@@ -1,4 +1,5 @@
 import { useMemo, useReducer, createContext, ReactElement } from "react"
+import { ProductType } from "./ProductsProvider";
 
 
 export type CartItemType = {
@@ -6,6 +7,7 @@ export type CartItemType = {
     name: string,
     price: number,
     qty: number,
+    image: string,
 }
 
 type CartStateType = { cart: CartItemType[] }
@@ -33,7 +35,7 @@ const reducer = (state: CartStateType, action: ReducerAction): CartStateType => 
                 throw new Error('action.payload missing in ADD action')
             }
 
-            const { sku, name, price } = action.payload
+            const { sku, name, price, image } = action.payload
 
             const filteredCart: CartItemType[] = state.cart.filter(item => item.sku !== sku)
 
@@ -41,7 +43,7 @@ const reducer = (state: CartStateType, action: ReducerAction): CartStateType => 
 
             const qty: number = itemExists ? itemExists.qty + 1 : 1
 
-            return { ...state, cart: [...filteredCart, { sku, name, price, qty }] }
+            return { ...state, cart: [...filteredCart, { sku, name, price, qty, image }] }
         }
         case REDUCER_ACTION_TYPE.REMOVE: {
             if (!action.payload) {

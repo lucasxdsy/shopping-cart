@@ -4,21 +4,21 @@ export type ProductType=
 {
     sku: string,
     name:string,
-    price:string
+    price: number
     image:string
 }
 const initState : ProductType[] = [
   {
     "sku": "item1",
     "name": "Cálculo",
-    "price": "100€",
+    "price": 10000000,
     "image": "../images/item1.jpg"
     
   },
   {
     "sku": "item2",
-    "name": "Calças Chino",
-    "price": 45.50,
+    "name": "TMD",
+    "price": 0.01,
     "image": "../images/item2.jpg"
   },
   {
