@@ -1,0 +1,32 @@
+{
+    "products": [
+      {
+        "sku": "item1",
+        "name": "Camisola",
+        "price": 29.99
+        
+      },
+      {
+        "sku": "item2",
+        "name": "Calças Chino",
+        "price": 45.50
+       
+      },
+      {
+        "sku": "item3",
+        "name": "Sapatos de Couro",
+        "price": 69.90
+        
+
+      },
+      {
+        "sku": "item4",
+        "name": "Gatinho",
+        "price": 69.90
+        
+
+      }
+      
+    ]
+  }
+  
