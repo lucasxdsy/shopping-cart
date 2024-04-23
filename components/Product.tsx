@@ -25,7 +25,7 @@ const Product = ({ product, dispatch, REDUCER_ACTIONS, inCart }: PropsType): Rea
 
     return (
         <div className="flex flex-wrap" >
-            <div className=" w-1/5  px-2 mb-4">
+            <div className=" w-20%  px-2 mb-4">
                 <article className="product border rounded p-4">
                     <h3>{product.name}</h3>
                     <img src={product.image} alt={product.name} className="product__img mt-2 w-60 h-60 object-cover" />

@@ -28,7 +28,7 @@ const ProductList = () => {
     }
 
     const content = (
-        <main className="main main--products">
+        <main className="main main--products grid grid-cols-5">
             {pageContent}
         </main>
     )

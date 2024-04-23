@@ -1,4 +1,3 @@
-
 import useCart from "../hooks.tsx/useCart"
 import { useState } from "react"
 import CartLineItem from "./CartLineItem"
@@ -28,13 +27,17 @@ const Cart = () => {
                     )
                 })}
             </ul>
-            <div className="cart__totals">
-                <div>Total Items: {totalItems}</div>
-                <p>Total Price: {totalPrice}</p>
-                <button className="cart__submit" disabled={!totalItems} onClick={onSubmitOrder}>
-                    Place Order
-                </button>
-            </div>
+            <div className="flex justify-center items-start h-screen">
+  <div className="cart__totals flex flex-col items-center">
+    <div>Total Items: {totalItems}</div>
+    <p>Total Price: {totalPrice}</p>
+    <button className="cart__submit mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" disabled={!totalItems} onClick={onSubmitOrder}>
+      Place Order
+    </button>
+  </div>
+</div>
+
+
         </>
 
     const content = (

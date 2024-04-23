@@ -23,16 +23,88 @@ const initState : ProductType[] = [
   },
   {
     "sku": "item3",
-    "name": "Sapatos de Couro",
+    "name": "Algebra",
     "price": 69.90,
     "image": "../images/item3.jpg"
 
   },
   {
     "sku": "item4",
-    "name": "Gatinho",
-    "price": 69.90,
+    "name": "PF",
+    "price": 89.90,
     "image": "../images/item4.jpg"
+    
+
+  },
+  {
+    "sku": "item5",
+    "name": "LI1",
+    "price": 420,
+    "image": "../images/item5.jpg"
+    
+
+  },
+  {
+    "sku": "item6",
+    "name": "opção_Uminho/Astronomia",
+    "price": 5,
+    "image": "../images/item6.jpg"
+    
+
+  },
+  {
+    "sku": "item7",
+    "name": "SC",
+    "price": 100,
+    "image": "../images/item7.jpg"
+    
+
+  },
+  {
+    "sku": "item8",
+    "name": "Análise",
+    "price": 20000000,
+    "image": "../images/item8.jpg"
+    
+
+  },
+  {
+    "sku": "item9",
+    "name": "Lógica",
+    "price": 50,
+    "image": "../images/item9.jpg"
+    
+
+  },
+  {
+    "sku": "item10",
+    "name": "LI2",
+    "price": 250,
+    "image": "../images/item10.jpg"
+    
+
+  },
+  {
+    "sku": "item11",
+    "name": "EPTN",
+    "price": 95,
+    "image": "../images/item11.jpg"
+    
+
+  },
+  {
+    "sku": "item12",
+    "name": "PI",
+    "price": 400,
+    "image": "../images/item12.jpg"
+    
+
+  }, 
+  {
+    "sku": "item13",
+    "name": "Apoio Emocional",
+    "price": 9999999999,
+    "image": "../images/item13.jpg"
     
 
   }
